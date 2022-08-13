@@ -1,0 +1,27 @@
+.bg{
+    background: url("../../assets/icons/Groupbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95vw;
+    padding: 30px;
+  
+}
+.footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.bottom{
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.bottom p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #263238;
+}

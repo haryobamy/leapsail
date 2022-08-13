@@ -1,0 +1,120 @@
+.nav_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 1px rgba(0,0,0,0.1) ;
+    padding: 0px 30px;
+    position: fixed;
+    width: 97%;
+    top: 0;
+}
+.logo{
+    color: #F6B736;
+}
+
+.right_container{
+    display: flex;
+    flex-direction: row;
+    flex:7;
+    align-items: center;
+}
+
+ ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+   
+}
+li{
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.left_container{
+    display: flex;
+    flex-direction: row;
+    flex:5;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+button{
+    background: #F6B736;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+
+
+.dropbtn {
+    cursor: pointer;
+    /* background-color: #04AA6D; */
+    /* color: white; */
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    /* border: none; */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contents {
+    display: none;
+    position: absolute;
+    top:20px;
+    background-color: #f1f1f1;
+    max-width: 500px;
+    min-width: 160px;
+    width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-right  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background:"gray"
+   
+  }
+  .dropdown-content-left a {
+    color: black;
+    padding: 0px 6px;
+    text-decoration: none;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    
+  }
+  .label{
+    background-color: red;
+  }
+  .dropdown-content-left  span {
+ background-color: #3e8e41;
+
+    
+  }
+
+  .dropdown-contents a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-contents {display: flex;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.image-div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: blue;
+}

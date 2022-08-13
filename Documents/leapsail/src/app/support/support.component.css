@@ -1,0 +1,26 @@
+
+.support{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+}
+.support img{
+    border-radius: 50%;
+
+}
+.comfort{
+   background-color:  #F6B736;
+   color: #fff;
+   align-items: center;
+   text-align: center;
+   margin: 30px auto;
+}
+.comfort button{
+    color: #F6B736;
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    border-radius: 30px;
+}
